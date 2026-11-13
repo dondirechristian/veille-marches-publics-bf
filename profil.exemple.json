@@ -1,0 +1,37 @@
+{
+  "_lisez_moi": "PROFIL D'EXEMPLE, fictif. Copiez-le en profil.json (ignoré par git) et remplacez par les vraies données de votre entreprise. Une clé absente rend le contrôle correspondant indéterminé — check_fit le dit au lieu de conclure. Une attestation à null signifie non détenue, ce qui est différent d'absente.",
+  "nom": "ENTREPRISE EXEMPLE SARL",
+  "rccm": {
+    "numero": "BF-OUA-0000-B-00000",
+    "domaines": [
+      "materiel informatique",
+      "fournitures de bureau",
+      "maintenance informatique",
+      "prestations de services"
+    ]
+  },
+  "agrements": [
+    {
+      "domaine": "materiel informatique",
+      "categorie": "B2",
+      "expire_le": "2027-12-31"
+    }
+  ],
+  "attestations": {
+    "fiscale": "2026-12-31",
+    "cnss": "2026-12-31"
+  },
+  "chiffre_affaires": {
+    "2023": 50000000,
+    "2024": 75000000,
+    "2025": 90000000
+  },
+  "references": [
+    {
+      "objet": "Acquisition de materiel informatique",
+      "client": "Administration publique (exemple)",
+      "montant": 20000000,
+      "annee": 2024
+    }
+  ]
+}

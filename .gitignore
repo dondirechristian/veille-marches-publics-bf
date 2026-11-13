@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Données collectées et base locale : reproductibles par ingestion,
+# volumineuses, et le PDF source appartient à la DGCMEF.
+data/
+
+# Profil réel de l'entreprise : données confidentielles. Modèle : profil.exemple.json
+profil.json

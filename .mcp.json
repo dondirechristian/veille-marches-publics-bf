@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mpbf": {
+      "command": ".venv/Scripts/python.exe",
+      "args": ["-m", "mpbf", "--base", "data/marches.db", "mcp"],
+      "env": {
+        "PYTHONPATH": "src",
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
